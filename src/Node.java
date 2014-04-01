@@ -10,6 +10,8 @@ public class Node {
  public int X;
  // integer for Y coordinate of maze
  public int Y;
+ //boolean to check if node was visited
+ public boolean wasVisited = false;
  //default Constructor
  public Node()
  {
