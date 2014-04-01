@@ -6,9 +6,9 @@ public class Node {
  public char boxValue;
  //boolean to check if node is currently holding Oliver
  public boolean isOliver;
- //integer for X cordinate of maze
+ //integer for X coordinate of maze
  public int X;
- // integer for Y cordinate of maze
+ // integer for Y coordinate of maze
  public int Y;
  //default Constructor
  public Node()
