@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class Maze 
 {
 	//2-D array of nodes to hold node objects
@@ -85,18 +85,25 @@ public class Maze
 		maze[2][4].boxValue = 'C';
 		maze[2][4].isCheese = true;
 	}
+	//print the maze
 	public void printMaze()
 	{
 		for(int i = 0; i <maze.length;i++)
 		{
 			for(int j = 0; j<maze.length;j++)
 			{
+				//print the boxValue
 				System.out.print(maze[i][j].boxValue);
+				//at the end of a row print a new line
 				if(j == maze.length-1)
 				{
 					System.out.println();
 				}
 			}
 		}
+	}
+	public void getTheCheeseQ()
+	{
+		Queue<Node> tempQueue = new LinkedList<Node>();
 	}
 }
