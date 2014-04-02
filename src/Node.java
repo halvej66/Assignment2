@@ -6,6 +6,8 @@ public class Node {
  public char boxValue;
  //boolean to check if node is currently holding Oliver
  public boolean isOliver;
+ //boolean to place cheese variable
+ public boolean isCheese;
  //integer for X coordinate of maze
  public int X;
  // integer for Y coordinate of maze
@@ -16,7 +18,7 @@ public class Node {
  public Node()
  {
 	 isWall = false;
-	 boxValue = '/';
+	 boxValue = ' ';
 	 isOliver = false;
  }
  public Node(int x , int y , char c)
