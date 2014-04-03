@@ -105,5 +105,9 @@ public class Maze
 	public void getTheCheeseQ()
 	{
 		Queue<Node> tempQueue = new LinkedList<Node>();
+		
+		
+		
+		
 	}
 }
